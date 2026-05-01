@@ -21,14 +21,9 @@
     }
   ],
   "functions": {
-    "api/*.js": {
+    "api/index.js": {
       "includeFiles": "wp/**",
       "maxDuration": 60
-    }
-  },
-  "build": {
-    "env": {
-      "NODEJS_AWS_HANDLER_NAME": "handler"
     }
   }
 }
