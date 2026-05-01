@@ -1,0 +1,4 @@
+Plugin prepared for upload!
+Date: 2026-03-20T14:48:40.345Z
+Production files included: Essential plugin files, built blocks, assets
+Temporary directory: temp-production-2026-03-20T14-47-34

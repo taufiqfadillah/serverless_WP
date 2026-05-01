@@ -1,0 +1,126 @@
+# th translation for Shopify for WordPress
+# Copyright (C) 2024 Shopify
+# This file is distributed under the same license as the Shopify for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopify for WordPress 0.1\n"
+"Report-Msgid-Bugs-To: https://github.com/shopify/shopify-for-wordpress\n"
+"POT-Creation-Date: 2025-08-29T15:03:08+00:00\n"
+"PO-Revision-Date: 2025-08-29T15:03:08+00:00\n"
+"Last-Translator: \n"
+"Language-Team: th\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "Shopify for WP"
+msgstr ""
+
+msgid "Connects your WordPress site with Shopify."
+msgstr ""
+
+msgid "Shopify"
+msgstr ""
+
+msgid "https://shopify.com"
+msgstr ""
+
+msgid "Add a product"
+msgstr ""
+
+msgid "Display a Shopify product"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Display a Shopify collection"
+msgstr ""
+
+msgid "Cart Toggle"
+msgstr ""
+
+msgid "Display a Shopify cart toggle button"
+msgstr ""
+
+msgid "Type to search collections..."
+msgstr "พิมพ์เพื่อค้นหาคอลเลกชัน..."
+
+msgid "No collections found"
+msgstr "ไม่พบคอลเลกชัน"
+
+msgid "Error fetching collections"
+msgstr "เกิดข้อผิดพลาดในการดึงคอลเลกชัน"
+
+msgid "Error: "
+msgstr "ข้อผิดพลาด: "
+
+msgid "Search Collections"
+msgstr "ค้นหาคอลเลกชัน"
+
+msgid "Search collections..."
+msgstr "ค้นหาคอลเลกชัน"
+
+msgid "No products found in this collection."
+msgstr ""
+
+msgid "Collection Search"
+msgstr "การค้นหาคอลเลกชัน"
+
+msgid "Max Products Per Row (max 6)"
+msgstr ""
+
+msgid "Max Products Per Page"
+msgstr "จำนวนสินค้าสูงสุดต่อหน้า"
+
+msgid "Card Behavior"
+msgstr "การทำงานของบัตร"
+
+msgid "Quick Shop only"
+msgstr "การช้อปด่วนเท่านั้น"
+
+msgid "PDP Links only"
+msgstr "ลิงก์ PDP เท่านั้น"
+
+msgid "Both"
+msgstr "ทั้งสองอย่าง"
+
+msgid "Choose how product cards behave when clicked"
+msgstr ""
+
+msgid "Product"
+msgstr "สินค้า"
+
+msgid "$0.00"
+msgstr ""
+
+msgid "Type to search products..."
+msgstr "พิมพ์เพื่อค้นหาสินค้า..."
+
+msgid "Error fetching products"
+msgstr "เกิดข้อผิดพลาดในการดึงสินค้า"
+
+msgid "No products found"
+msgstr "ไม่พบสินค้า"
+
+msgid "Product Search"
+msgstr "การค้นหาสินค้า"
+
+msgid "Search Products"
+msgstr "ค้นหาสินค้า"
+
+msgid "Search products..."
+msgstr "ค้นหาสินค้า"
+
+msgid "Choose how the product card behaves when clicked"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Add a Shopify collection to your page or post."
+msgstr ""
+

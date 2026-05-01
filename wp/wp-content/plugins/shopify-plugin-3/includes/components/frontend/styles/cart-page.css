@@ -1,0 +1,326 @@
+/* Shopify Cart Page Styles */
+
+.shopify-cart-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cart-page-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+    color: #1a1a1a;
+}
+
+.cart-page-content {
+    width: 100%;
+}
+
+/* Empty cart state */
+.empty-cart-message {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+}
+
+.empty-cart-message h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.empty-cart-message p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.continue-shopping-btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.continue-shopping-btn:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* Cart with items layout */
+.cart-with-items {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+@media (max-width: 968px) {
+    .cart-with-items {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+/* Cart items section */
+.cart-items {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.cart-items h2 {
+    font-size: 1.5rem;
+    margin: 0 0 20px 0;
+    color: #1a1a1a;
+}
+
+.cart-lines {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual cart line item */
+.cart-line-item {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.line-image {
+    flex-shrink: 0;
+}
+
+.line-image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.line-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line-details h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    color: #1a1a1a;
+}
+
+.line-variant {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.line-variant span {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.line-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* Cart summary section */
+.cart-summary {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+.cart-summary h2 {
+    font-size: 1.5rem;
+    margin: 0 0 20px 0;
+    color: #1a1a1a;
+}
+
+.summary-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+.summary-line.total {
+    font-size: 1.2rem;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.checkout-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.checkout-btn:hover {
+    opacity: 0.8;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .shopify-cart-page {
+        padding: 15px;
+    }
+    
+    .cart-page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .cart-line-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .line-image {
+        align-self: center;
+    }
+    
+    .line-details {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .cart-summary {
+        position: static;
+    }
+}
+
+/* Comprehensive modal override for inline cart display */
+.cart-page-display {
+    /* Remove ALL modal positioning and styling */
+    position: static !important;
+    top: unset !important;
+    left: unset !important;
+    right: unset !important;
+    bottom: unset !important;
+    transform: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    min-width: unset !important;
+    min-height: unset !important;
+    z-index: auto !important;
+    inset: unset !important;
+    display: block !important;
+    /* Start hidden and show via JavaScript after button is processed */
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Show cart when ready */
+.cart-page-display.ready {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: opacity 0.2s ease-in-out !important;
+}
+
+/* Remove backdrop completely */
+.cart-page-display::backdrop {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+/* Override the internal dialog element to look like a regular page element */
+.cart-page-display::part(dialog) {
+    position: static !important;
+    top: unset !important;
+    left: unset !important;
+    right: unset !important;
+    bottom: unset !important;
+    transform: none !important;
+    margin: 0 !important;
+    padding: 20px !important;
+    border: none !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1) !important;
+    background: white !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    min-width: unset !important;
+    min-height: unset !important;
+    z-index: auto !important;
+    inset: unset !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Hide the close/dismiss button completely */
+.cart-page-display::part(close-button),
+.cart-page-display::part(dismiss-button) {
+    display: none !important;
+}
+
+/* Target only the specific close dialog button - hide immediately */
+.cart-page-display button[aria-label="Close cart dialog"],
+.cart-page-display::part(dialog) button[aria-label="Close cart dialog"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Ensure cart content flows naturally */
+.cart-page-display * {
+    position: static !important;
+}
+
+/* Remove any fixed positioning from nested elements */
+.cart-page-display [style*="position: fixed"],
+.cart-page-display [style*="position: absolute"] {
+    position: static !important;
+}

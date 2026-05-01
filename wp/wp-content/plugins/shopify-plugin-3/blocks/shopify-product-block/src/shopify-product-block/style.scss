@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.product-card__error-message {
+	text-align: center;
+}
+
+.shopify-product-block__error {
+	&.shopify-product-block__error--no-product {
+		padding: 20px;
+		background: #fff;
+		border: 1px solid #c5c4c4;
+		border-radius: 0.625rem;
+		box-shadow:
+			0 4px 6px -1px rgba(0, 0, 0, 0.1),
+			0 2px 4px -1px rgba(0, 0, 0, 0.06);
+		cursor: pointer;
+		overflow: hidden;
+		padding: 0.5rem;
+		position: relative;
+		transition: box-shadow 0.2s ease-in-out;
+		box-sizing: border-box;
+		max-width: 100%;
+		text-align: center;
+	}
+}

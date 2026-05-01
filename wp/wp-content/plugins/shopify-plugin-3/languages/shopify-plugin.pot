@@ -1,0 +1,1298 @@
+# Copyright (C) 2025 Shopify
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopify 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shopify-for-wordpress-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-18T14:41:26+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: shopify-plugin\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: blocks/block-registration.php:369
+msgid "Shopify"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/shopify/shopify"
+msgstr ""
+
+#. Description of the plugin
+msgid "Connects your WordPress site with Shopify, providing seamless integration for products, collections, and cart functionality."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://shopify.com"
+msgstr ""
+
+#: blocks/block-registration.php:176
+msgid "Add a product"
+msgstr ""
+
+#: blocks/block-registration.php:177
+msgid "Display a Shopify product"
+msgstr ""
+
+#: blocks/block-registration.php:202
+msgid "Add a Shopify collection"
+msgstr ""
+
+#: blocks/block-registration.php:203
+msgid "Display a Shopify collection"
+msgstr ""
+
+#: blocks/block-registration.php:235
+msgid "Cart Toggle"
+msgstr ""
+
+#: blocks/block-registration.php:236
+msgid "Display a Shopify cart toggle button"
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-card-section.php:10
+msgid "Choose where to display your product"
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-card-section.php:11
+msgid "Once you've added products to Shopify, there are two ways to display them using WordPress blocks."
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-card-section.php:19
+#: includes/components/admin/snippets/documentation-page.php:110
+msgid "Create a dedicated product page"
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-card-section.php:20
+#: includes/components/admin/snippets/documentation-page.php:111
+msgid "Showcase all your products and collections in one central place, and make it easy for your customers to browse everything you have to offer."
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-card-section.php:29
+msgid "Add products to any page or blog post"
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-card-section.php:30
+#: includes/components/admin/snippets/documentation-page.php:113
+msgid "Weave products and collections into any page to create engaging, shoppable content that connects with your customers."
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-card-section.php:31
+msgid "Add product"
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-footer.php:11
+msgid "Complete your Shopify setup"
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-footer.php:17
+msgid "To start selling on WordPress, complete a few essential tasks in your"
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-footer.php:26
+#: includes/core/admin-settings.php:628
+#: includes/core/admin-settings.php:708
+msgid "Shopify admin"
+msgstr ""
+
+#: includes/components/admin/snippets/dashboard/dashboard-header-banner.php:20
+msgid "Unable to connect to Shopify. Please check your access code."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:13
+#: includes/components/admin/snippets/documentation-page.php:24
+msgid "Documentation"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:14
+#: includes/components/admin/snippets/documentation-page.php:25
+msgid "Complete guide to using Shopify plugin"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:15
+msgid "Overview"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:16
+msgid "Technical Documentation"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:17
+msgid "Integration Guide"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:18
+msgid "Troubleshooting"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:19
+#: includes/components/admin/snippets/documentation-page.php:699
+msgid "Shopify Partners"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:26
+msgid "Connect Shopify to WordPress site"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:27
+msgid "Using the Shopify plugin"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:28
+msgid "Advanced customizations for the Shopify plugin"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:29
+msgid "FAQs"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:35
+msgid "With the Shopify plugin, you can connect your Shopify store to your WordPress site, display products and collections on your WordPress site, and sell using Shopify's checkout. Customers add products to a cart on your site and complete checkout with Shopify."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:48
+msgid "Before you can start selling on your WordPress site, there are a few essential steps to complete in your Shopify admin."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:49
+msgid "Pick a plan"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:50
+msgid "You must select a plan to start selling. Shopify offers several plans to help your business grow at every stage. Each Shopify pricing plan offers a variety of features."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:51
+#: includes/components/admin/snippets/documentation-page.php:54
+#: includes/components/admin/snippets/documentation-page.php:57
+#: includes/components/admin/snippets/documentation-page.php:60
+#: includes/components/admin/snippets/settings-form.php:336
+#: includes/components/admin/snippets/settings-form.php:370
+msgid "Learn more"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:52
+msgid "Set up Shopify Payments"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:53
+msgid "Provide a few details to complete your account setup and start getting paid for your sales."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:55
+msgid "Review and select shipping rates"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:56
+msgid "Kickstart your shipping strategy by reviewing rates that have already been set based on your location. Confirm that your rates fit your shipping strategy and reflect any discounts from Shopify's shipping labels."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:58
+msgid "Remove your Shopify password"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:59
+msgid "In order to start selling, you need to remove your Shopify store's password."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:61
+msgid "If you want detailed guidance on completing these key tasks, review Shopify's Setup Guide, located on the homepage of your Shopify admin. You can also visit"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:62
+msgid "Shopify's Help Center"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:63
+msgid "for more help."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:69
+msgid "Add products to you WordPress site"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:88
+msgid "Add a product or collection in the Shopify admin"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:89
+msgid "In order to display products on your WordPress site, you first need to add products or collections in your Shopify admin."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:90
+msgid "Add your first product - Shopify Help Center"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:91
+msgid "Add collections - Shopify Help Center"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:92
+msgid "Publish a product or collection on your WordPress site"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:93
+msgid "To display a product or collection on a WordPress page, head to the Pages section of your WordPress dashboard, then click the Add page button."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:94
+msgid "In the edit page state, start by clicking the + block inserter icon."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:95
+msgid "In the Blocks section, you can search or scroll to the Shopify section, where you'll find options to Add a Shopify product or Add a Shopify collection."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:96
+msgid "Once selected, you can search for the specific products or collections you want to display on your WordPress site. Simply enter your search query in the Product search or Collection search section, located on the right-hand sidebar under block settings."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:100
+msgid "About the Plugin"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:101
+msgid "Choose where to display your products"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:109
+msgid "There are two ways you can display products on your WordPress site using blocks:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:112
+msgid "Add products directly into any page or blog post"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:114
+msgid "You can further customize how your products are displayed on the"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:115
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:116
+msgid "page of your Shopify plugin."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:124
+msgid "Shopify plugin and Shopify storefront components"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:133
+msgid "The Shopify plugin is built with"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:134
+msgid "Shopify Storefront Web Components"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:135
+msgid "The following components are used as the building blocks of your commerce:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:136
+msgid "Product Card Component"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:137
+msgid "This component displays individual product information, typically seen in product listings or collection pages. It often includes elements such as the product image, title, price, and an Add to cart button."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:138
+msgid "Product Quick View Modal Component"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:139
+msgid "This component displays a modal over the existing content with product details, an Add to Cart button, and a link to view full product details."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:140
+msgid "Product Detail Page Component"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:141
+msgid "This component displays a single product, with full product details. Each product detail page component has a unique URL."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:142
+msgid "Collection Component"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:143
+msgid "This component displays collections of products that you have created."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:147
+msgid "Shopify products and collections display customization"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:158
+msgid "The Shopify plugin seamlessly connects your WordPress site with your Shopify store, allowing you to display products, collections, and cart functionality directly on your WordPress pages."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:159
+msgid "Key Features:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:160
+msgid "Display Shopify products on WordPress pages"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:161
+msgid "Show product collections with filtering"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:162
+msgid "Integrated shopping cart functionality"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:163
+msgid "SEO-optimized product URLs"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:164
+msgid "Responsive design for all devices"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:179
+msgid "Create the 'Shopify' Folder: Begin by creating a new folder named Shopify directly within your active theme's directory. This folder serves as the central location for your custom component overrides."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:180
+msgid "Override Individual Components: To modify a specific component, you can add a PHP file with a designated name inside the newly created Shopify folder. The naming convention for these override files is crucial for the plugin to recognize and apply your custom versions:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:181
+msgid "To update the Product Card Component, create a PHP file named product-card.php within the Shopify folder."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:182
+msgid "To update the Product Quick View Modal Component, create a PHP file named modal.php within the Shopify folder."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:183
+msgid "To update the Product Detail Page Component, create a PHP file named pdp.php within the Shopify folder."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:184
+msgid "To update the Collection Component, create a PHP file named component.php within the Shopify folder."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:185
+msgid "This complete control means that after your custom PHP file is created, the plugin disregards its default component file for that specific element. You can implement any code within these override files, from static HTML blocks to complex PHP logic."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:186
+msgid "While it's highly recommended to leverage the Shopify Storefront Web Components (as utilized in the default plugin structure) for consistency and access to built-in Shopify functionalities, you aren't limited to them. You can integrate other methods for fetching and displaying product and collection data, allowing for advanced customizations."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:187
+msgid "For more information and best practices, refer to"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:188
+msgid "Shopify plugin Dev docs"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:192
+msgid "Getting Started"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:193
+msgid "Shopify products and collections rewrites"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:203
+msgid "Follow these steps to get your Shopify store connected to WordPress:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:204
+msgid "Connect your Shopify store in the Settings page"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:205
+msgid "Add your store URL and API credentials"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:206
+msgid "Test the connection to ensure everything works"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:207
+msgid "Start adding products to your WordPress pages"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:209
+msgid "Go to Settings"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:220
+msgid "From the search engine listing card, there is a URL displayed that links customers directly to your product or collection. For example: https://johns-apparel.myshopify.com › products › huskee-reusable-cup."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:221
+msgid "Add (products/huskee-reusable-cup) at the end of your WordPress site URL. For example: https://johns-apparel-wordpress.com/products/huskee-reusable-cup."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:225
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:226
+msgid "Customize your product card behaviour"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:243
+msgid "How do I connect my Shopify store?"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:244
+msgid "Navigate to Settings > Shopify and enter your store URL and API credentials. The plugin will test the connection automatically."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:245
+msgid "Can I customize the product display?"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:246
+msgid "Yes, you can customize the appearance using CSS and modify the product templates in your theme."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:247
+msgid "Is the plugin compatible with my theme?"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:248
+msgid "The plugin is designed to work with most WordPress themes. If you encounter issues, check the troubleshooting section."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:249
+msgid "How do I add products to my pages?"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:250
+msgid "Use the Shopify blocks in the WordPress editor or add shortcodes to your content."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:297
+msgid "In order to connect Shopify to the WordPress site, you need to ensure you have install the"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:298
+#: includes/components/admin/snippets/documentation-page.php:443
+msgid "Sell on WordPress sales channel"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:299
+msgid "in Shopify admin."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:300
+msgid "In your Shopify admin, go to Settings > App and Sales channels"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:301
+msgid "Click Shopify App Store."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:302
+msgid "If applicable, then log in to continue to the Shopify App Store."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:303
+msgid "From the Shopify App Store, search for and then click WordPress."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:304
+msgid "From the Sell on WordPress sales channel listing, click Install."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:308
+msgid "URL Structure"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:309
+msgid "Connect WordPress to Shopify"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:319
+msgid "Product URLs"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:320
+msgid "Products are accessible at:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:321
+msgid "Collection URLs"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:322
+msgid "Collections are accessible at:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:323
+msgid "Custom URL Structure"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:324
+msgid "You can customize the URL structure in Settings > Advanced Options."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:328
+msgid "Template System"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:359
+msgid "After installing the Shopify plugin, follow the prompts to either"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:360
+#: includes/components/admin/snippets/documentation-page.php:447
+#: includes/components/admin/snippets/documentation-page.php:618
+msgid "sign up"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:361
+msgid "for Shopify or"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:362
+msgid "connect your existing Shopify account"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:363
+msgid "Once you're in the Shopify admin, navigate to the Sell on WordPress sales channel."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:364
+msgid "In the Sell on WordPress sales channel, find and copy your Shopify access token."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:365
+msgid "Return to your Shopify plugin, and go to Settings > General. Paste your Shopify access token into the relevant field and click Connect."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:366
+msgid "To start selling on your WordPress site, you'll need to set up payments and shipping in Shopify, and remove your Shopify store's password"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:370
+msgid "Hooks and Filters"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:385
+msgid "Available Hooks"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:386
+msgid "Use these hooks to customize plugin behavior:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:387
+msgid "Modify product data"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:388
+msgid "Modify collection data"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:389
+msgid "Cart update events"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:390
+msgid "Example Usage"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:391
+msgid "Modify product data here"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:398
+msgid "WordPress Blocks"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:411
+msgid "Available Blocks"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:412
+msgid "The plugin provides several WordPress blocks:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:413
+msgid "Shopify Product"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:414
+msgid "Display a single product"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:415
+msgid "Shopify Collection"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:416
+msgid "Display a product collection"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:417
+msgid "Shopify Cart"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:418
+msgid "Display shopping cart"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:419
+msgid "Shopify Search"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:420
+msgid "Product search functionality"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:421
+msgid "Adding Blocks"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:422
+msgid "In the WordPress editor, search for \"Shopify\" to find available blocks."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:436
+#: includes/components/admin/snippets/documentation-page.php:609
+msgid "Shopify Partners can leverage development stores to help clients get set up with the Shopify plugin."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:437
+#: includes/components/admin/snippets/documentation-page.php:610
+msgid "After you or your client has downloaded the Shopify plugin, you can log into your"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:438
+#: includes/components/admin/snippets/documentation-page.php:611
+msgid "Partner Dashboard"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:439
+#: includes/components/admin/snippets/documentation-page.php:612
+msgid "and select an existing development store or"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:440
+#: includes/components/admin/snippets/documentation-page.php:613
+msgid "create a new one"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:441
+msgid "After that"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:442
+msgid "you can add the"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:444
+msgid "to your development store to start the process of connecting Shopify to your client's WordPress site."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:445
+msgid "And follow the guidance provided above."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:446
+#: includes/components/admin/snippets/documentation-page.php:617
+msgid "Want to become a Shopify Partner? You can"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:448
+#: includes/components/admin/snippets/documentation-page.php:619
+msgid "for free and"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:449
+#: includes/components/admin/snippets/documentation-page.php:620
+msgid "start earning by building on Shopify"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:455
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:456
+msgid "If I have an existing Shopify store, can I connect it to my WordPress site?"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:470
+msgid "Product Shortcode"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:471
+msgid "Collection Shortcode"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:472
+msgid "Cart Shortcode"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:473
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:474
+msgid "Add parameters to customize display:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:476
+msgid "Yes. You can connect your existing Shopify store to WordPress. Simply install the Shopify for WordPress plugin on WordPress and follow the prompts to connect an existing Shopify store."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:480
+msgid "Theme Integration"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:481
+msgid "Do I need a paid Shopify plan to use the plugin?"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:496
+msgid "CSS Customization"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:497
+msgid "Customize the appearance using CSS classes:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:498
+msgid "Product containers"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:499
+msgid "Collection containers"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:500
+msgid "Cart containers"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:501
+msgid "JavaScript Events"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:502
+msgid "Listen for cart and product events:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:503
+msgid "Cart updated:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:510
+msgid "Common Issues"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:523
+msgid "Connection Problems"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:524
+#: includes/components/admin/snippets/documentation-page.php:529
+#: includes/components/admin/snippets/documentation-page.php:534
+msgid "Issue:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:525
+msgid "Cannot connect to Shopify store"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:526
+#: includes/components/admin/snippets/documentation-page.php:531
+#: includes/components/admin/snippets/documentation-page.php:536
+msgid "Solution:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:527
+msgid "Verify your API credentials and ensure your store URL is correct."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:528
+msgid "Products Not Displaying"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:530
+msgid "Products appear as \"not found\""
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:532
+msgid "Check that products are published and available in your Shopify store."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:533
+msgid "Cart Not Working"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:535
+msgid "Add to cart functionality not working"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:537
+msgid "Ensure your theme supports JavaScript and check for console errors."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:539
+msgid "Yes. To sell on WordPress, a paid"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:540
+msgid "Shopify plan"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:541
+msgid "is required. You can start with Shopify's free trial and pick a paid plan later."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:545
+msgid "Performance Optimization"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:546
+msgid "What are the requirements for using the Shopify for WordPress plugin?"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:560
+msgid "Caching"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:561
+msgid "Enable WordPress caching plugins to improve performance:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:562
+msgid "WP Rocket"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:563
+msgid "W3 Total Cache"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:564
+msgid "LiteSpeed Cache"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:565
+msgid "Image Optimization"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:566
+msgid "Optimize product images in Shopify for faster loading."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:567
+msgid "Database Optimization"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:568
+msgid "Regularly clean your WordPress database to maintain performance."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:572
+msgid "Admin access to your WordPress site with permission to install and activate plugins"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:573
+msgid "A supported WordPress theme (block themes are recommended)"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:574
+msgid "A Shopify account or development store"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:575
+msgid "Shopify admin or staff access with permission to install apps and manage the Storefront API"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:579
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:580
+msgid "Do I have to maintain both a Shopify and WordPress store?"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:592
+msgid "Enabling Debug"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:593
+msgid "Add this to your wp-config.php file:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:594
+msgid "Plugin Debug Log"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:595
+msgid "Check the debug log at:"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:596
+msgid "Browser Console"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:597
+msgid "Open browser developer tools to check for JavaScript errors."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:604
+msgid "How to use Shopify development stores with the WordPress plugin"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:614
+msgid "After that, you can add the"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:615
+msgid "WordPress sales channel"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:616
+msgid "to your development store to start the process of connecting Shopify to your client's WordPress site. And follow the guidance provided above."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:622
+msgid "No. The Shopify for WordPress plugin lets you sell on WordPress using Shopify's world-class checkout. You can sell exclusively on your WordPress site or on both platforms—whichever fits your business best."
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:649
+msgid "About the plugin"
+msgstr ""
+
+#: includes/components/admin/snippets/documentation-page.php:668
+msgid "Set up Shopify"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:216
+msgid "General"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:217
+msgid "Advanced"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:218
+msgid "Developer tools"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:224
+msgid "Unable to connect. Please confirm your Shopify access token is correct."
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:233
+msgid "Advanced settings saved successfully!"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:241
+msgid "Store disconnected successfully!"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:249
+msgid "Successfully connected."
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:259
+msgid "Connect Shopify to your WordPress site"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:260
+msgid "Go to the WordPress sales channel in your Shopify Admin to find your access token."
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:266
+msgid "Shopify access token"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:279
+#: includes/components/admin/snippets/settings-form.php:442
+msgid "Connect"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:286
+msgid "Disconnect store"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:303
+msgid "Disconnect from Shopify?"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:311
+msgid "All products published to your WordPress site through Shopify will be removed and Shopify checkout will no longer be available."
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:317
+msgid "Cancel"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:320
+msgid "Disconnect from Shopify"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:335
+msgid "Shopify links rewrites "
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:336
+msgid "Automatically generate a WordPress page for every published Shopify product or collection pages. Navigate to "
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:336
+msgid "Permalinks"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:336
+msgid "to apply new rules."
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:347
+msgid "Shopify to WordPress product sync"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:350
+msgid "Automatically create a product detailed page on WordPress for every active product on Shopify. "
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:360
+msgid "Shopify to WordPress collection sync"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:362
+msgid "Automatically create a collection page on WordPress for every active collection on Shopify. "
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:369
+msgid "Product view"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:370
+msgid "Choose how you want customers to view your products. This setting applies to all product cards across your site."
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:372
+msgid "Product card behavior"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:377
+msgid "Default (quick view and detailed product page)"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:380
+msgid "Quick view only - popover summary view of your product"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:383
+msgid "Detailed product page only - full detail product overview with unique URL"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:391
+msgid "Save"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:403
+msgid "Advanced customizations"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:406
+msgid "To customize your product card, create a file in your theme at"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:409
+msgid "To customize your collection, create a file in your theme at"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:412
+msgid "To customize your product quick view, create a file in your theme at"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:414
+msgid "To customize your product detail page, create a file in your theme at"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:500
+msgid "Access code cleared successfully."
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:633
+msgid "Access code validated and store connected successfully!"
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:648
+msgid "Access code validated but failed to save store connection locally."
+msgstr ""
+
+#: includes/components/admin/snippets/settings-form.php:660
+msgid "Failed to submit access code to external service."
+msgstr ""
+
+#: includes/components/admin/snippets/setup-guide.php:25
+#: includes/core/admin-settings.php:733
+#: includes/core/admin-settings.php:737
+msgid "Add products"
+msgstr ""
+
+#: includes/components/admin/snippets/setup-guide.php:30
+msgid "Create a product page on WordPress"
+msgstr ""
+
+#: includes/components/admin/snippets/setup-guide.php:31
+msgid "Your Shopify products will automatically sync with WordPress. Use the Shopify Product block to display products anywhere on your site."
+msgstr ""
+
+#: includes/components/admin/snippets/setup-guide.php:34
+msgid "Create a store page"
+msgstr ""
+
+#: includes/components/admin/snippets/setup-guide.php:38
+msgid "Add products to your existing posts"
+msgstr ""
+
+#: includes/components/admin/snippets/setup-guide.php:39
+msgid "Insert products you want to sell on existing pages and posts"
+msgstr ""
+
+#: includes/components/admin/snippets/setup-guide.php:42
+msgid "Add products to posts"
+msgstr ""
+
+#: includes/components/admin/snippets/setup-guide.php:57
+msgid "Developer Guide"
+msgstr ""
+
+#: includes/components/admin/snippets/setup-guide.php:60
+msgid "Shopify Help Center"
+msgstr ""
+
+#: includes/components/admin/snippets/welcome-page.php:20
+msgid "Connect Shopify to WordPress"
+msgstr ""
+
+#: includes/components/admin/snippets/welcome-page.php:21
+msgid "Start selling by connecting Shopify to your WordPress site. Not on Shopify yet? Start your free trial today."
+msgstr ""
+
+#: includes/components/admin/snippets/welcome-page.php:25
+msgid "Start free trial"
+msgstr ""
+
+#: includes/components/admin/snippets/welcome-page.php:28
+msgid "Connect your store"
+msgstr ""
+
+#: includes/components/admin/snippets/welcome-page.php:33
+msgid "Shopify Partner? "
+msgstr ""
+
+#: includes/components/admin/snippets/welcome-page.php:33
+msgid "Learn how to get started"
+msgstr ""
+
+#: includes/components/frontend/shopify-pdp.php:88
+msgid "Buy now"
+msgstr ""
+
+#: includes/core/admin-settings.php:263
+msgid "Settings"
+msgstr ""
+
+#: includes/core/admin-settings.php:604
+msgid "Connected to Shopify"
+msgstr ""
+
+#: includes/core/admin-settings.php:617
+msgid "Not connected"
+msgstr ""
+
+#: includes/core/admin-settings.php:636
+msgid "Start free Shopify trial"
+msgstr ""
+
+#: includes/core/admin-settings.php:708
+msgid "To start selling on WordPress, you'll need to complete a few essential tasks in your"
+msgstr ""
+
+#: includes/core/admin-settings.php:734
+msgid "To display products on your WordPress site, add products or collections in Shopify."
+msgstr ""
+
+#: includes/core/admin-settings.php:743
+msgid "Setup Shopify Payments"
+msgstr ""
+
+#: includes/core/admin-settings.php:744
+msgid "Provide a few details to activate Shopify Payments and start accepting all major payment methods."
+msgstr ""
+
+#: includes/core/admin-settings.php:747
+msgid "Complete account setup"
+msgstr ""
+
+#: includes/core/admin-settings.php:753
+msgid "Review shipping rates"
+msgstr ""
+
+#: includes/core/admin-settings.php:754
+msgid "Kickstart your shipping strategy by reviewing rates that have already been set based on your location."
+msgstr ""
+
+#: includes/core/admin-settings.php:757
+msgid "Review rates"
+msgstr ""
+
+#: includes/core/admin-settings.php:763
+msgid "Manage checkout traffic"
+msgstr ""
+
+#: includes/core/admin-settings.php:764
+msgid "Decide where customers go after checkout."
+msgstr ""
+
+#: includes/core/admin-settings.php:767
+msgid "Setup redirect"
+msgstr ""
+
+#: includes/core/admin-settings.php:906
+#: includes/core/admin-settings.php:948
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/core/admin-settings.php:911
+#: includes/core/admin-settings.php:953
+msgid "Security check failed."
+msgstr ""
+
+#: includes/core/admin-settings.php:919
+msgid "Invalid checkbox ID."
+msgstr ""
+
+#: includes/core/admin-settings.php:933
+msgid "Progress saved successfully."
+msgstr ""
+
+#: includes/core/admin-settings.php:938
+msgid "Failed to save progress."
+msgstr ""
+
+#: includes/core/admin-settings.php:959
+msgid "Access code cleared."
+msgstr ""
+
+#: includes/components/frontend/modal.php:53
+msgid "See full product details"
+msgstr ""

@@ -1,0 +1,126 @@
+# ja translation for Shopify for WordPress
+# Copyright (C) 2024 Shopify
+# This file is distributed under the same license as the Shopify for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopify for WordPress 0.1\n"
+"Report-Msgid-Bugs-To: https://github.com/shopify/shopify-for-wordpress\n"
+"POT-Creation-Date: 2025-08-29T15:03:08+00:00\n"
+"PO-Revision-Date: 2025-08-29T15:03:08+00:00\n"
+"Last-Translator: \n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "Shopify for WP"
+msgstr ""
+
+msgid "Connects your WordPress site with Shopify."
+msgstr ""
+
+msgid "Shopify"
+msgstr ""
+
+msgid "https://shopify.com"
+msgstr ""
+
+msgid "Add a product"
+msgstr ""
+
+msgid "Display a Shopify product"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Display a Shopify collection"
+msgstr ""
+
+msgid "Cart Toggle"
+msgstr ""
+
+msgid "Display a Shopify cart toggle button"
+msgstr ""
+
+msgid "Type to search collections..."
+msgstr "入力してコレクションを検索..."
+
+msgid "No collections found"
+msgstr "コレクションが見つかりません"
+
+msgid "Error fetching collections"
+msgstr "コレクション取得時のエラー"
+
+msgid "Error: "
+msgstr "エラー： "
+
+msgid "Search Collections"
+msgstr "コレクションを検索"
+
+msgid "Search collections..."
+msgstr "コレクションを検索"
+
+msgid "No products found in this collection."
+msgstr ""
+
+msgid "Collection Search"
+msgstr "コレクション検索"
+
+msgid "Max Products Per Row (max 6)"
+msgstr ""
+
+msgid "Max Products Per Page"
+msgstr "ページあたりの最大商品数"
+
+msgid "Card Behavior"
+msgstr "カードの動作"
+
+msgid "Quick Shop only"
+msgstr "Quick Shopのみ"
+
+msgid "PDP Links only"
+msgstr "PDPリンクのみ"
+
+msgid "Both"
+msgstr "両方"
+
+msgid "Choose how product cards behave when clicked"
+msgstr ""
+
+msgid "Product"
+msgstr "商品"
+
+msgid "$0.00"
+msgstr ""
+
+msgid "Type to search products..."
+msgstr "入力して商品を検索..."
+
+msgid "Error fetching products"
+msgstr "商品取得時のエラー"
+
+msgid "No products found"
+msgstr "商品が見つかりません"
+
+msgid "Product Search"
+msgstr "商品検索"
+
+msgid "Search Products"
+msgstr "商品を検索"
+
+msgid "Search products..."
+msgstr "商品を検索"
+
+msgid "Choose how the product card behaves when clicked"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Add a Shopify collection to your page or post."
+msgstr ""
+

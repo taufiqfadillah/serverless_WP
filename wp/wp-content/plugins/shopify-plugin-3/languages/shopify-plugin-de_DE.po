@@ -1,0 +1,179 @@
+# Copyright (C) 2025 Shopify
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopify 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shopify-for-"
+"wordpress\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-05T01:42:07+00:00\n"
+"PO-Revision-Date: 2025-08-05 13:35+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: shopify-plugin\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.3.14"
+
+#. Plugin Name of the plugin
+#: shopify.php
+msgid "Shopify"
+msgstr ""
+
+#. Description of the plugin
+#: shopify.php
+msgid "Connects your WordPress site with Shopify."
+msgstr ""
+
+#. Author of the plugin
+#: shopify.php blocks/block-registration.php:349
+msgid "Shopify"
+msgstr ""
+
+#. Author URI of the plugin
+#: shopify.php
+msgid "https://shopify.com"
+msgstr ""
+
+#: blocks/block-registration.php:166
+msgid "Add a product"
+msgstr ""
+
+#: blocks/block-registration.php:167
+msgid "Display a Shopify product"
+msgstr ""
+
+#: blocks/block-registration.php:182
+msgid "Add a Shopify collection"
+msgstr ""
+
+#: blocks/block-registration.php:183
+msgid "Display a Shopify collection"
+msgstr ""
+
+#: blocks/block-registration.php:215
+msgid "Cart Toggle"
+msgstr ""
+
+#: blocks/block-registration.php:216
+msgid "Display a Shopify cart toggle button"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/components/CollectionSearch.js:29
+msgid "Type to search collections..."
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/components/CollectionSearch.js:64
+#: blocks/shopify-collection-block/src/shopify-collection-block/components/CollectionSearch.js:119
+msgid "No collections found"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/components/CollectionSearch.js:73
+#: blocks/shopify-collection-block/src/shopify-collection-block/components/CollectionSearch.js:128
+msgid "Error fetching collections"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/components/CollectionSearch.js:155
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:210
+msgid "Error: "
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/components/CollectionSearch.js:167
+msgid "Search Collections"
+msgstr "Search collections in german"
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/components/CollectionSearch.js:173
+msgid "Search collections..."
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/components/ProductGrid.js:13
+msgid "No products found in this collection."
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/edit.js:73
+msgid "Collection Search"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/edit.js:84
+msgid "Max Products Per Row (max 6)"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/edit.js:97
+msgid "Max Products Per Page"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/edit.js:114
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:251
+msgid "Card Behavior"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/edit.js:118
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:255
+msgid "Quick Shop only"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/edit.js:122
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:259
+msgid "PDP Links only"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/edit.js:126
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:263
+msgid "Both"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/edit.js:135
+msgid "Choose how product cards behave when clicked"
+msgstr ""
+
+#: blocks/shopify-product-block/src/shopify-product-block/components/ProductCard.js:32
+msgid "Product"
+msgstr ""
+
+#: blocks/shopify-product-block/src/shopify-product-block/components/ProductCard.js:35
+msgid "$0.00"
+msgstr ""
+
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:54
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:119
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:238
+msgid "Type to search products..."
+msgstr ""
+
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:102
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:162
+msgid "Error fetching products"
+msgstr ""
+
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:153
+msgid "No products found"
+msgstr ""
+
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:203
+msgid "Product Search"
+msgstr ""
+
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:222
+msgid "Search Products"
+msgstr ""
+
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:223
+msgid "Search products..."
+msgstr ""
+
+#: blocks/shopify-product-block/src/shopify-product-block/edit.js:272
+msgid "Choose how the product card behaves when clicked"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/block.json
+msgctxt "block title"
+msgid "Add a Shopify collection"
+msgstr ""
+
+#: blocks/shopify-collection-block/src/shopify-collection-block/block.json
+msgctxt "block description"
+msgid "Add a Shopify collection to your page or post."
+msgstr ""

@@ -1,0 +1,217 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+
+.shopify-product-block__product,
+.shopify-product-block__placeholder {
+	border: 1px solid rgb(204 204 204 / 50%);
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05),
+		0px 1px 2px 0px rgba(0, 0, 0, 0.05), 0px 1px 2px 0px rgba(0, 0, 0, 0.05),
+		0px 8px 8px 0px rgba(0, 0, 0, 0.02);
+	border-radius: 8px;
+
+	&__image {
+		padding: 10px 10px 0;
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	&__content {
+		padding: 10px 15px 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		h3 {
+			margin: 0 !important;
+			font-weight: 600;
+			font-size: 14px;
+		}
+		p {
+			margin: 0 !important;
+			font-size: 14px;
+			color: #000 !important;
+		}
+	}
+}
+
+.shopify-product-block__error {
+	margin-bottom: 10px;
+}
+
+.shopify-product-block__edit-link {
+	margin: 8px 0 0;
+
+	.shopify-product-block__edit-link-button {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		color: #3858e9;
+		text-decoration: none;
+		font-size: 13px;
+		font-weight: 400;
+		border: none;
+		border-radius: 4px;
+		background-color: #fff;
+		transition: all 0.2s ease;
+
+		.shopify-product-block__edit-link-icon {
+			width: 20px;
+			height: 20px;
+			flex-shrink: 0;
+		}
+	}
+}
+
+.shopify-store-url-mismatch-error {
+	padding: 24px;
+	background: #fff;
+	border: 1px solid #000;
+	border-radius: 2px;
+	text-align: left;
+	container-type: inline-size;
+
+	.error-content {
+		font-size: 13px;
+		font-weight: 400;
+	}
+
+	.error-header {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin-bottom: 20px;
+	}
+
+	.error-title {
+		margin: 0;
+		color: #000;
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	.error-icon {
+		line-height: 0;
+	}
+
+	.error-message {
+		color: #000;
+		line-height: 1.5;
+		font-size: 13px;
+
+		.reconnect-steps {
+			margin: 12px 0;
+			padding-left: 16px;
+
+			li {
+				margin: 8px 0;
+			}
+		}
+
+		.help-link {
+			margin: 12px 0 0 0;
+
+			a {
+				color: #3858e9;
+				text-decoration: none;
+			}
+		}
+
+		.link-button {
+			background: none;
+			border: none;
+			padding: 0;
+			margin: 0;
+			color: #3858e9;
+			text-decoration: underline;
+			cursor: pointer;
+			font-size: inherit;
+			font-family: inherit;
+			line-height: inherit;
+			transition: color 0.2s ease;
+
+			&:hover {
+				color: #2749da;
+			}
+
+			&:focus {
+				outline: 2px solid #3858e9;
+				outline-offset: 2px;
+			}
+
+			&:active {
+				color: #1d3aa0;
+			}
+		}
+	}
+
+	.error-actions {
+		margin-top: 16px;
+		display: flex;
+		gap: 10px;
+
+		@container (max-width: 300px) {
+			display: block;
+		}
+
+		button {
+			border: none;
+			cursor: pointer;
+			font-size: 13px;
+			padding: 8px 12px;
+			border-radius: 3px;
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+			transition: all 0.2s ease;
+
+			&.inverse {
+				background: #3858e9;
+				color: #fff;
+
+				&:hover {
+					background: #2749da;
+				}
+			}
+
+			&:not(.inverse) {
+				background: #fff;
+				color: #3858e9;
+				border: 1px solid #3858e9;
+
+				&:hover {
+					background: #f8f9fa;
+				}
+			}
+		}
+	}
+
+	.wp-connect-button {
+		color: #3858e9;
+		border: 1px solid #3858e9;
+		background-color: #fff;
+		padding: 12.5px 14px;
+		border-radius: 3px;
+		text-decoration: none;
+		display: inline-flex;
+		align-items: center;
+		gap: 5px;
+		line-height: 1;
+		cursor: pointer;
+
+		@container (max-width: 300px) {
+			width: 100%;
+			text-align: center;
+			height: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 10px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

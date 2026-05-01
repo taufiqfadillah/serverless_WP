@@ -1,0 +1,308 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.collection-grid__grid {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+	// Responsive breakpoints for different screen sizes
+	@media screen and (max-width: 599px) {
+		grid-template-columns: 1fr;
+	}
+
+	@media screen and (min-width: 600px) and (max-width: 899px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media screen and (min-width: 900px) and (max-width: 1199px) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	@media screen and (min-width: 1200px) {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	// Override with PHP-generated classes for specific max products per row
+	&.max-products-per-row-1 {
+		grid-template-columns: 1fr;
+	}
+
+	&.max-products-per-row-2 {
+		@media screen and (min-width: 600px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	&.max-products-per-row-3 {
+		@media screen and (min-width: 600px) and (max-width: 899px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media screen and (min-width: 900px) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	&.max-products-per-row-4 {
+		@media screen and (min-width: 600px) and (max-width: 899px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media screen and (min-width: 900px) and (max-width: 1199px) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+		@media screen and (min-width: 1200px) {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
+
+	&.max-products-per-row-5 {
+		@media screen and (min-width: 600px) and (max-width: 899px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media screen and (min-width: 900px) and (max-width: 1199px) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+		@media screen and (min-width: 1200px) {
+			grid-template-columns: repeat(5, 1fr);
+		}
+	}
+
+	&.max-products-per-row-6 {
+		@media screen and (min-width: 600px) and (max-width: 899px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media screen and (min-width: 900px) and (max-width: 1199px) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+		@media screen and (min-width: 1200px) {
+			grid-template-columns: repeat(6, 1fr);
+		}
+	}
+}
+
+.wp-shopify-pagination-controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 2rem;
+	padding: 1rem 0;
+
+	.components-button {
+		min-width: 100px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.page-info {
+		font-size: 14px;
+		color: #666;
+	}
+}
+
+.shopify-collection-block__error {
+	&.shopify-collection-block__error--no-collection {
+		padding: 20px;
+		background-color: #f8d7da;
+		border: 1px solid #f5c6cb;
+		border-radius: 4px;
+		background: #fff;
+		border: 1px solid #c5c4c4;
+		border-radius: 0.625rem;
+		box-shadow:
+			0 4px 6px -1px rgba(0, 0, 0, 0.1),
+			0 2px 4px -1px rgba(0, 0, 0, 0.06);
+		cursor: pointer;
+		overflow: hidden;
+		padding: 0.5rem;
+		position: relative;
+		transition: box-shadow 0.2s ease-in-out;
+		box-sizing: border-box;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	&.shopify-collection-block__error--store-mismatch {
+		container-type: inline-size;
+		padding: 24px;
+		background: #fff;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		text-align: center;
+		max-width: 500px;
+		margin: 0 auto;
+
+		.error-content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 16px;
+		}
+
+		.error-title {
+			margin: 0;
+			color: #dc3545;
+			font-size: 18px;
+		}
+
+		.error-message {
+			color: #666;
+			line-height: 1.5;
+		}
+
+		.store-details {
+			background: #f8f9fa;
+			padding: 12px;
+			border-radius: 4px;
+			margin: 12px 0;
+			text-align: left;
+		}
+
+		.store-detail {
+			margin: 8px 0;
+			font-size: 14px;
+
+			code {
+				background: #e9ecef;
+				padding: 2px 6px;
+				border-radius: 3px;
+				font-family: monospace;
+			}
+		}
+
+		.error-actions {
+			margin-top: 16px;
+		}
+
+		.help-text {
+			margin: 12px 0 0 0;
+			font-size: 12px;
+			color: #666;
+			line-height: 1.4;
+		}
+
+		/* Container queries for different sizes */
+		@container (max-width: 300px) {
+			padding: 16px;
+			max-width: 100%;
+
+			.error-content {
+				gap: 12px;
+			}
+
+			.error-title {
+				font-size: 16px;
+			}
+
+			.error-message {
+				font-size: 13px;
+			}
+
+			.store-details {
+				padding: 8px;
+				font-size: 12px;
+
+				.store-detail {
+					font-size: 12px;
+					margin: 6px 0;
+
+					code {
+						font-size: 11px;
+						padding: 1px 4px;
+					}
+				}
+			}
+
+			.error-actions {
+				margin-top: 12px;
+
+				button {
+					width: 100%;
+					margin: 4px 0;
+					font-size: 12px;
+					padding: 8px 12px;
+				}
+			}
+
+			.help-text {
+				font-size: 11px;
+			}
+		}
+
+		@container (min-width: 301px) and (max-width: 450px) {
+			padding: 20px;
+
+			.error-title {
+				font-size: 17px;
+			}
+
+			.error-message {
+				font-size: 14px;
+			}
+
+			.store-details {
+				padding: 10px;
+
+				.store-detail {
+					font-size: 13px;
+				}
+			}
+
+			.error-actions {
+				button {
+					margin: 2px 4px;
+					font-size: 13px;
+				}
+			}
+		}
+
+		@container (min-width: 451px) {
+			padding: 28px;
+
+			.error-content {
+				gap: 20px;
+			}
+
+			.error-title {
+				font-size: 20px;
+			}
+
+			.error-message {
+				font-size: 15px;
+			}
+
+			.store-details {
+				padding: 16px;
+
+				.store-detail {
+					font-size: 15px;
+					margin: 10px 0;
+
+					code {
+						font-size: 14px;
+						padding: 3px 8px;
+					}
+				}
+			}
+
+			.error-actions {
+				margin-top: 20px;
+
+				button {
+					font-size: 14px;
+					padding: 10px 16px;
+					margin: 0 6px;
+				}
+			}
+
+			.help-text {
+				font-size: 13px;
+			}
+		}
+	}
+}

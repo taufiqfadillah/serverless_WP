@@ -1,0 +1,126 @@
+# cs translation for Shopify for WordPress
+# Copyright (C) 2024 Shopify
+# This file is distributed under the same license as the Shopify for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopify for WordPress 0.1\n"
+"Report-Msgid-Bugs-To: https://github.com/shopify/shopify-for-wordpress\n"
+"POT-Creation-Date: 2025-08-29T15:03:08+00:00\n"
+"PO-Revision-Date: 2025-08-29T15:03:08+00:00\n"
+"Last-Translator: \n"
+"Language-Team: cs\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "Shopify for WP"
+msgstr ""
+
+msgid "Connects your WordPress site with Shopify."
+msgstr ""
+
+msgid "Shopify"
+msgstr ""
+
+msgid "https://shopify.com"
+msgstr ""
+
+msgid "Add a product"
+msgstr ""
+
+msgid "Display a Shopify product"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Display a Shopify collection"
+msgstr ""
+
+msgid "Cart Toggle"
+msgstr ""
+
+msgid "Display a Shopify cart toggle button"
+msgstr ""
+
+msgid "Type to search collections..."
+msgstr "Zadejte text pro hledání kolekcí..."
+
+msgid "No collections found"
+msgstr "Nebyly nalezeny žádné kolekce"
+
+msgid "Error fetching collections"
+msgstr "Chyba při načítání kolekcí"
+
+msgid "Error: "
+msgstr "Chyba: "
+
+msgid "Search Collections"
+msgstr "Hledat kolekce"
+
+msgid "Search collections..."
+msgstr "Hledat kolekce"
+
+msgid "No products found in this collection."
+msgstr ""
+
+msgid "Collection Search"
+msgstr "Hledání kolekcí"
+
+msgid "Max Products Per Row (max 6)"
+msgstr ""
+
+msgid "Max Products Per Page"
+msgstr "Max. produktů na stránku"
+
+msgid "Card Behavior"
+msgstr "Chování karet"
+
+msgid "Quick Shop only"
+msgstr "Jen rychlý nákup"
+
+msgid "PDP Links only"
+msgstr "Jen odkazy na stránky podrobností produktů"
+
+msgid "Both"
+msgstr "Obojí"
+
+msgid "Choose how product cards behave when clicked"
+msgstr ""
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "$0.00"
+msgstr ""
+
+msgid "Type to search products..."
+msgstr "Zadejte text pro hledání produktů..."
+
+msgid "Error fetching products"
+msgstr "Chyba při načítání produktů"
+
+msgid "No products found"
+msgstr "Nebyly nalezeny žádné produkty"
+
+msgid "Product Search"
+msgstr "Hledání produktů"
+
+msgid "Search Products"
+msgstr "Vyhledejte produkty"
+
+msgid "Search products..."
+msgstr "Vyhledejte produkty"
+
+msgid "Choose how the product card behaves when clicked"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Add a Shopify collection to your page or post."
+msgstr ""
+

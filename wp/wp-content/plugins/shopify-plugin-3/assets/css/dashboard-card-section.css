@@ -1,0 +1,390 @@
+/* Dashboard Card Section */
+
+.dashboard-card-section {
+	margin-top: 40px;
+}
+
+.dashboard-card-section__title {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0 0 10px;
+}
+
+.dashboard-card-section__caption {
+	font-size: 15px;
+	margin: 0 0 20px;
+}
+
+.dashboard-card-section__card {
+	display: flex;
+	align-items: center;
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+}
+
+.dashboard-card-section__card:first-child {
+	margin-bottom: 20px;
+}
+
+.dashboard-card-section__card__content,
+.dashboard-card-section__card__content__image {
+	padding: 24px;
+}
+
+@media (min-width: 1200px) {
+	.dashboard-card-section__card__content {
+		order: 1;
+	}
+	.dashboard-card-section__card__content__image {
+		order: 2;
+	}
+}
+
+.dashboard-card-section__card__content__image img {
+	max-width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+.dashboard-card-section__card__content h3 {
+	font-size: 15px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.dashboard-card-section__card__content p {
+	font-size: 15px;
+	margin: 10px 0 15px;
+}
+
+.shop-info-notice {
+	margin: 0 auto 20px auto;
+}
+
+.shop-info-notice__content {
+	padding: 20px;
+	background-color: #fef8ee;
+	border-left: 4px solid #f0b849;
+	border-radius: 0;
+}
+
+.shop-info-notice__content a {
+	background-color: #fff;
+}
+.shop-info-notice__text p {
+	font-size: 14px;
+	color: #000;
+	margin: 0 0 10px;
+}
+
+/* Advanced Tab */
+
+.advanced-tab-content {
+	padding: 24px;
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+}
+
+.advanced-tab-content h2,
+.developer-tab-content h2 {
+	margin: 0 0 10px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.advanced-tab-content p {
+	margin: 10px 0 20px;
+	max-width: 550px;
+}
+
+.advanced-tab-content .checkbox-wrapper label {
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.advanced-tab-content .form-group:nth-of-type(n + 2) {
+	margin-top: 24px;
+	padding-top: 24px;
+	border-top: 1px solid #f0f0f0;
+}
+
+.developer-tab-content ul {
+	list-style: disc;
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+.developer-tab-content ul li {
+	margin-bottom: 20px;
+}
+
+/* Dashboard Footer */
+
+.dashboard-footer {
+	margin-top: 40px;
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+}
+
+.dashboard-footer__title {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.dashboard-footer__content {
+	padding: 24px;
+}
+
+.dashboard-footer__content h2 {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+	color: #333;
+}
+
+.dashboard-footer__caption p {
+	font-size: 15px;
+	margin: 10px 0 0;
+}
+
+.dashboard-footer__caption a {
+	color: #3858e9;
+}
+
+.dashboard-footer__content span {
+	display: flex;
+	align-items: center;
+}
+
+.dashboard-footer__content img {
+	max-width: 20px;
+	height: auto;
+}
+
+/* Dashboard Card Section */
+
+.dashboard-card-section {
+	margin-top: 40px;
+}
+
+.dashboard-card-section__title {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0 0 10px;
+}
+
+.dashboard-card-section__caption {
+	font-size: 15px;
+	margin: 0 0 20px;
+}
+
+.dashboard-card-section__card {
+	display: flex;
+	align-items: center;
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+}
+
+.dashboard-card-section__card:first-child {
+	margin-bottom: 20px;
+}
+
+.dashboard-card-section__card__content,
+.dashboard-card-section__card__content__image {
+	padding: 24px;
+}
+
+@media (min-width: 1200px) {
+	.dashboard-card-section__card__content {
+		order: 1;
+		flex: 1;
+	}
+	.dashboard-card-section__card__content__image {
+		order: 2;
+	}
+}
+
+.dashboard-card-section__card__content__image img {
+	max-width: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+.dashboard-card-section__card__content h3 {
+	font-size: 15px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.dashboard-card-section__card__content p {
+	font-size: 15px;
+	margin: 10px 0 15px;
+	max-width: 620px;
+}
+
+.shop-info-notice {
+	margin-bottom: 20px;
+}
+
+.shop-info-notice__content {
+	padding: 20px;
+	background-color: #fef8ee;
+	border-left: 4px solid #f0b849;
+	border-radius: 0;
+}
+
+.shop-info-notice__content a {
+	background-color: #fff;
+}
+
+.shop-info-notice__text p {
+	font-size: 14px;
+	color: #000;
+	margin: 0 0 10px;
+}
+
+/* Advanced Tab */
+
+.advanced-tab-content {
+	padding: 24px;
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+}
+
+.advanced-tab-content h2,
+.developer-tab-content h2 {
+	margin: 0 0 10px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.advanced-tab-content p {
+	margin: 10px 0 20px;
+	max-width: 550px;
+}
+
+.advanced-tab-content a {
+	color: #3858e9;
+}
+
+.advanced-tab-content .checkbox-wrapper label {
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.advanced-tab-content .form-group:nth-of-type(n + 2) {
+	margin-top: 24px;
+	padding-top: 24px;
+	border-top: 1px solid #f0f0f0;
+}
+
+/* Radio Group Styling for Advanced Tab */
+.advanced-tab-content .radio-group {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.advanced-tab-content .radio-option {
+	margin-bottom: 20px;
+	padding: 0;
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+}
+
+.advanced-tab-content .radio-option:last-child {
+	margin-bottom: 0;
+}
+
+.advanced-tab-content .radio-option input[type="radio"] {
+	margin: 2px 0 0 0;
+	flex-shrink: 0;
+	width: 16px;
+	height: 16px;
+}
+
+.advanced-tab-content .radio-option input[type="radio"]::before {
+	height: 8px;
+	width: 8px;
+	margin: 3px;
+}
+
+.advanced-tab-content .radio-option label {
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 1.4;
+	flex: 1;
+}
+
+.advanced-tab-content .radio-option-content {
+	flex: 1;
+}
+
+.advanced-tab-content .radio-option-title {
+	font-weight: 500;
+	color: #1e1e1e;
+	margin-bottom: 4px;
+}
+
+.advanced-tab-content .radio-option-description {
+	color: #6b7280;
+	font-size: 14px;
+}
+
+.developer-tab-content ul {
+	list-style: disc;
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+.developer-tab-content ul li {
+	margin-bottom: 20px;
+}
+
+/* Dashboard Footer */
+
+.dashboard-footer {
+	margin-top: 40px;
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+}
+
+.dashboard-footer__title {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.dashboard-footer__content {
+	padding: 24px;
+}
+
+.dashboard-footer__content h2 {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+	color: #333;
+}
+
+.dashboard-footer__caption p {
+	font-size: 15px;
+	margin: 10px 0 0;
+}
+
+.dashboard-footer__caption a {
+	color: #3858e9;
+}
+
+.dashboard-footer__content span {
+	display: flex;
+	align-items: center;
+}
+
+.dashboard-footer__content img {
+	max-width: 20px;
+	height: auto;
+}

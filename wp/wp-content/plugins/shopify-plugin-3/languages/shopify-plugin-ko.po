@@ -1,0 +1,126 @@
+# ko translation for Shopify for WordPress
+# Copyright (C) 2024 Shopify
+# This file is distributed under the same license as the Shopify for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopify for WordPress 0.1\n"
+"Report-Msgid-Bugs-To: https://github.com/shopify/shopify-for-wordpress\n"
+"POT-Creation-Date: 2025-08-29T15:03:08+00:00\n"
+"PO-Revision-Date: 2025-08-29T15:03:08+00:00\n"
+"Last-Translator: \n"
+"Language-Team: ko\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "Shopify for WP"
+msgstr ""
+
+msgid "Connects your WordPress site with Shopify."
+msgstr ""
+
+msgid "Shopify"
+msgstr ""
+
+msgid "https://shopify.com"
+msgstr ""
+
+msgid "Add a product"
+msgstr ""
+
+msgid "Display a Shopify product"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Display a Shopify collection"
+msgstr ""
+
+msgid "Cart Toggle"
+msgstr ""
+
+msgid "Display a Shopify cart toggle button"
+msgstr ""
+
+msgid "Type to search collections..."
+msgstr "컬렉션 검색을 위해 입력하세요..."
+
+msgid "No collections found"
+msgstr "검색된 컬렉션이 없습니다"
+
+msgid "Error fetching collections"
+msgstr "컬렉션을 가져오는 중 오류 발생"
+
+msgid "Error: "
+msgstr "오류: "
+
+msgid "Search Collections"
+msgstr "컬렉션 검색"
+
+msgid "Search collections..."
+msgstr "컬렉션 검색"
+
+msgid "No products found in this collection."
+msgstr ""
+
+msgid "Collection Search"
+msgstr "컬렉션 검색"
+
+msgid "Max Products Per Row (max 6)"
+msgstr ""
+
+msgid "Max Products Per Page"
+msgstr "페이지당 최대 제품 수"
+
+msgid "Card Behavior"
+msgstr "카드 동작"
+
+msgid "Quick Shop only"
+msgstr "빠른 쇼핑만 해당"
+
+msgid "PDP Links only"
+msgstr "PDP 링크만 해당"
+
+msgid "Both"
+msgstr "모두"
+
+msgid "Choose how product cards behave when clicked"
+msgstr ""
+
+msgid "Product"
+msgstr "제품"
+
+msgid "$0.00"
+msgstr ""
+
+msgid "Type to search products..."
+msgstr "제품 검색을 위해 입력하세요..."
+
+msgid "Error fetching products"
+msgstr "제품을 가져오는 중 오류 발생"
+
+msgid "No products found"
+msgstr "검색된 제품이 없습니다"
+
+msgid "Product Search"
+msgstr "제품 검색"
+
+msgid "Search Products"
+msgstr "제품 검색"
+
+msgid "Search products..."
+msgstr "제품 검색"
+
+msgid "Choose how the product card behaves when clicked"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Add a Shopify collection to your page or post."
+msgstr ""
+

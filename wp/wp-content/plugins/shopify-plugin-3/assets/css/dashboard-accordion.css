@@ -1,0 +1,274 @@
+/**
+ * Dashboard Accordion Styles
+ *
+ * Styles for the admin dashboard accordion component
+ */
+
+.dashboard-accordion {
+	margin: 20px auto;
+}
+
+.dashboard-accordion__item-row:last-child {
+	border-bottom: none;
+}
+
+.dashboard-accordion__item {
+	border: 1px solid #f0f0f0;
+	border-radius: 4px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.dashboard-accordion__item-row:last-child {
+	border-bottom: none;
+}
+
+.dashboard-accordion__header {
+	background: rgba(56, 88, 233, 0.04);
+	padding: 24px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	transition: all 0.3s ease;
+	border-bottom: none;
+}
+
+.dashboard-accordion__header:hover {
+	background: rgba(56, 88, 233, 0.08);
+	transition: none;
+}
+
+.dashboard-accordion__header.active {
+	background: rgba(56, 88, 233, 0.04);
+	color: #1e1e1e;
+}
+
+.dashboard-accordion__header-content {
+	flex: 1;
+}
+
+.dashboard-accordion__title-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 8px;
+}
+
+.dashboard-accordion__title-icon {
+	flex-shrink: 0;
+}
+
+.dashboard-accordion__icon-image {
+	width: 24px;
+	height: 24px;
+	object-fit: contain;
+	display: block;
+}
+
+.dashboard-accordion__title {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+	color: inherit;
+}
+
+.dashboard-accordion__caption {
+	font-size: 15px;
+	line-height: 1.4;
+	color: #2f2f2f;
+}
+
+.dashboard-accordion__caption .shopify-admin-link {
+	color: #3858e9;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.dashboard-accordion__caption .shopify-admin-link:hover {
+	opacity: 0.5;
+}
+
+.dashboard-accordion__header-actions {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	flex-shrink: 0;
+}
+
+.dashboard-accordion__chevron {
+	transition: transform 0.3s ease;
+	flex-shrink: 0;
+	cursor: pointer;
+	padding: 8px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dashboard-accordion__header.active .dashboard-accordion__chevron {
+	transform: rotate(180deg);
+}
+
+.dashboard-accordion__content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+}
+
+.dashboard-accordion__content.active {
+	/* Let JavaScript handle the max-height dynamically */
+}
+
+/* Ensure content is visible when accordion is open by default */
+.dashboard-accordion__content.active[style*="max-height"] {
+	max-height: none !important;
+}
+
+.dashboard-accordion__item-row {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 20px;
+	border: 1px solid #fff;
+	transition: all 0.3s ease;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.dashboard-accordion__item-content {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	flex: 1;
+}
+
+.dashboard-accordion__checkbox-wrapper {
+	position: relative;
+	flex-shrink: 0;
+}
+
+.dashboard-accordion__checkbox {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.dashboard-accordion__checkbox-label {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: #fff;
+	cursor: pointer;
+	position: relative;
+	transition: all 0.3s ease;
+}
+
+.dashboard-accordion__checkbox:checked + .dashboard-accordion__checkbox-label {
+	background: #3858e9;
+	border-color: #3858e9;
+}
+
+.dashboard-accordion__checkbox:checked
+	+ .dashboard-accordion__checkbox-label::after {
+	content: "";
+	position: absolute;
+	left: 4px;
+	top: 0px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg) scale(0.85);
+}
+
+.dashboard-accordion__item-text {
+	flex: 1;
+	position: relative;
+	top: 1px;
+}
+
+.dashboard-accordion__item-heading {
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0 0 5px 0;
+	color: #1e1e1e;
+	font-weight: 400;
+}
+
+.dashboard-accordion__item-caption {
+	font-size: 13px;
+	margin: 0;
+	color: #757575;
+	line-height: 1.4;
+}
+
+.dashboard-accordion__item-caption .shopify-admin-link {
+	color: #3858e9;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.dashboard-accordion__item-caption .shopify-admin-link:hover {
+	opacity: 0.5;
+}
+
+.dashboard-accordion__item-action {
+	flex-shrink: 0;
+	margin-left: 15px;
+}
+
+.dashboard-accordion__action-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	color: #3858e9;
+	font-size: 13px;
+	font-weight: 400;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.dashboard-accordion__action-link:hover {
+	opacity: 0.75;
+}
+
+.dashboard-accordion__action-icon {
+	display: inline-flex;
+	align-items: center;
+}
+
+.dashboard-accordion__action-icon svg {
+	width: 20px;
+	height: 20px;
+}
+
+.dashboard-accordion__empty {
+	text-align: center;
+	padding: 20px;
+	color: #666;
+}
+
+@media (max-width: 768px) {
+	.dashboard-accordion__header {
+		padding: 15px;
+	}
+
+	.dashboard-accordion__content-inner {
+		padding: 15px;
+	}
+
+	.dashboard-accordion__item-row {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.dashboard-accordion__item-action {
+		margin-left: 0;
+		align-self: flex-end;
+	}
+}

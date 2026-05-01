@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "shopify-collection/shopify-collection-block",
+	"version": "0.1.0",
+	"title": "Add a Shopify collection",
+	"category": "shopify",
+	"description": "Add a Shopify collection to your page or post.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "shopify",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"selectedCollection": {
+			"type": "object",
+			"default": null
+		},
+		"selectedStoreUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"maxProductsPerRow": {
+			"type": "number",
+			"default": 3
+		},
+		"maxProductsPerPage": {
+			"type": "number",
+			"default": 12
+		},
+		"showPagination": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

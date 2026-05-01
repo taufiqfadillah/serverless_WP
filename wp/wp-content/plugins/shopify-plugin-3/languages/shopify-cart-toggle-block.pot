@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-05T01:38:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: shopify-cart-toggle-block\n"
+
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/build/shopify-cart-toggle-block/index.js:1
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/src/shopify-cart-toggle-block/edit.js:14
+msgid "Cart Toggle Settings"
+msgstr ""
+
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/build/shopify-cart-toggle-block/index.js:1
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/src/shopify-cart-toggle-block/edit.js:17
+msgid "Toggle Text"
+msgstr ""
+
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/build/shopify-cart-toggle-block/index.js:1
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/src/shopify-cart-toggle-block/edit.js:20
+msgid "Enter the text for the cart toggle button."
+msgstr ""
+
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/build/shopify-cart-toggle-block/index.js:1
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/src/shopify-cart-toggle-block/edit.js:26
+msgid "Show Cart Icon"
+msgstr ""
+
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/build/shopify-cart-toggle-block/index.js:1
+#: wp-content/plugins/shopify/blocks/shopify-cart-toggle-block/src/shopify-cart-toggle-block/edit.js:29
+msgid "Toggle to show or hide the cart icon."
+msgstr ""

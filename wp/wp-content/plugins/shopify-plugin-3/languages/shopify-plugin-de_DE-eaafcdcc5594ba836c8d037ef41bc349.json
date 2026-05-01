@@ -1,0 +1,16 @@
+{
+  "translation-revision-date": "2025-08-05 13:35+0000",
+  "generator": "Loco https://localise.biz/",
+  "source": "blocks/shopify-collection-block/src/shopify-collection-block/components/CollectionSearch.js",
+  "domain": "shopify",
+  "locale_data": {
+    "shopify": {
+      "": {
+        "domain": "",
+        "lang": "de_DE",
+        "plural-forms": "nplurals=2; plural=n != 1;"
+      },
+      "Search Collections": ["Search collections in german"]
+    }
+  }
+}

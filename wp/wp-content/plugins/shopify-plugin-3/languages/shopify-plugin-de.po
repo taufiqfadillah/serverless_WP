@@ -1,0 +1,126 @@
+# de translation for Shopify for WordPress
+# Copyright (C) 2024 Shopify
+# This file is distributed under the same license as the Shopify for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopify for WordPress 0.1\n"
+"Report-Msgid-Bugs-To: https://github.com/shopify/shopify-for-wordpress\n"
+"POT-Creation-Date: 2025-08-29T15:03:08+00:00\n"
+"PO-Revision-Date: 2025-08-29T15:03:08+00:00\n"
+"Last-Translator: \n"
+"Language-Team: de\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "Shopify for WP"
+msgstr ""
+
+msgid "Connects your WordPress site with Shopify."
+msgstr ""
+
+msgid "Shopify"
+msgstr ""
+
+msgid "https://shopify.com"
+msgstr ""
+
+msgid "Add a product"
+msgstr ""
+
+msgid "Display a Shopify product"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Display a Shopify collection"
+msgstr ""
+
+msgid "Cart Toggle"
+msgstr ""
+
+msgid "Display a Shopify cart toggle button"
+msgstr ""
+
+msgid "Type to search collections..."
+msgstr "Tippen, um Kollektionen zu suchen …"
+
+msgid "No collections found"
+msgstr "Keine Kollektionen gefunden"
+
+msgid "Error fetching collections"
+msgstr "Fehler beim Laden der Kollektionen"
+
+msgid "Error: "
+msgstr "Fehler: "
+
+msgid "Search Collections"
+msgstr "Kollektionen durchsuchen"
+
+msgid "Search collections..."
+msgstr "Kollektionen durchsuchen"
+
+msgid "No products found in this collection."
+msgstr ""
+
+msgid "Collection Search"
+msgstr "Kollektionssuche"
+
+msgid "Max Products Per Row (max 6)"
+msgstr ""
+
+msgid "Max Products Per Page"
+msgstr "Maximale Produkte pro Seite"
+
+msgid "Card Behavior"
+msgstr "Kartenverhalten"
+
+msgid "Quick Shop only"
+msgstr "Nur Schnellkauf"
+
+msgid "PDP Links only"
+msgstr "Nur PDP-Links"
+
+msgid "Both"
+msgstr "Beides"
+
+msgid "Choose how product cards behave when clicked"
+msgstr ""
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "$0.00"
+msgstr ""
+
+msgid "Type to search products..."
+msgstr "Tippen, um Produkte zu suchen …"
+
+msgid "Error fetching products"
+msgstr "Fehler beim Laden der Produkte"
+
+msgid "No products found"
+msgstr "Keine Produkte gefunden"
+
+msgid "Product Search"
+msgstr "Produktsuche"
+
+msgid "Search Products"
+msgstr "Produkte durchsuchen"
+
+msgid "Search products..."
+msgstr "Produkte durchsuchen"
+
+msgid "Choose how the product card behaves when clicked"
+msgstr ""
+
+msgid "Add a Shopify collection"
+msgstr ""
+
+msgid "Add a Shopify collection to your page or post."
+msgstr ""
+

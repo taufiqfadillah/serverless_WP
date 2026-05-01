@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/shopify-cart-toggle-block",
+  "version": "0.1.0",
+  "title": "Add a Shopify cart toggle",
+  "category": "shopify",
+  "icon": "cart",
+  "description": "Add a Shopify cart toggle to your header.",
+  "example": {},
+  "parent": [
+    "core/navigation"
+  ],
+  "allowedBlocks": [
+    "core/navigation-link",
+    "core/navigation-submenu",
+    "core/page-list"
+  ],
+  "supports": {
+    "html": true,
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true
+    },
+    "interactivity": {
+      "clientNavigation": true
+    }
+  },
+  "attributes": {
+    "toggleText": {
+      "type": "string",
+      "default": "View Cart"
+    },
+    "enableCartIcon": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "shopify",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}
